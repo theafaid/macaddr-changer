@@ -6,17 +6,14 @@ import sys
 import os
 import time
 
-
 def slowprint(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(10. / 400)
 
-
 slowprint("[!] Starting MAC Changer : ")
 os.system('clear')
-
 
 def slowprint(s):
     for c in s + '\n':
@@ -24,14 +21,11 @@ def slowprint(s):
         sys.stdout.flush()
         time.sleep(4. / 100)
 
-
-
 def slowprint(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(0. / 100)
-
 
 slowprint('''\033[1;31m \033[91m    
        __  ___                 ________                               
@@ -42,13 +36,11 @@ slowprint('''\033[1;31m \033[91m
                                                    /____/\033[97m             
 ''')
 
-
 def slowprint(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(3. / 400)
-
 
 slowprint("\t\t                                         \033[93mBy :A||F")
 print(" ")
