@@ -1,7 +1,3 @@
-#
-# =======================================+SCRIPT BY Abdurrahman Faid+==============================================
-#
-# ====================================+github : www.github.com/abdurrhmanFaid=====================================
 import sys
 import os
 import time
@@ -42,7 +38,7 @@ def slowprint(s):
         sys.stdout.flush()
         time.sleep(3. / 400)
 
-slowprint("\t\t                                         \033[93mBy :A||F")
+slowprint("\t\t                                         \033[93mBy :@theafaid")
 print(" ")
 print("1- Show the current MAC-ADDRESS")
 print("")
